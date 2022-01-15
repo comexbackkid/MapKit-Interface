@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2E039C2790FF2B000C7EBA /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E039B2790FF2B000C7EBA /* LocationsViewModel.swift */; };
+		7C2E039E2791C134000C7EBA /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E039D2791C134000C7EBA /* LocationsListView.swift */; };
+		7C2E03A02791CFC6000C7EBA /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E039F2791CFC6000C7EBA /* LocationPreviewView.swift */; };
+		7C2E03A22791DF9F000C7EBA /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E03A12791DF9F000C7EBA /* LocationMapAnnotationView.swift */; };
+		7C2E03A42791E4FF000C7EBA /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E03A32791E4FF000C7EBA /* LocationDetailView.swift */; };
 		7C82DCE02790DA4300D89F0F /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCD02790DA3F00D89F0F /* SwiftfulMapAppApp.swift */; };
 		7C82DCE12790DA4300D89F0F /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCD02790DA3F00D89F0F /* SwiftfulMapAppApp.swift */; };
 		7C82DCE22790DA4300D89F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCD12790DA3F00D89F0F /* ContentView.swift */; };
 		7C82DCE32790DA4300D89F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCD12790DA3F00D89F0F /* ContentView.swift */; };
-		7C82DCE42790DA4300D89F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C82DCD22790DA4300D89F0F /* Assets.xcassets */; };
-		7C82DCE52790DA4300D89F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C82DCD22790DA4300D89F0F /* Assets.xcassets */; };
+		7C82DCEF2790DBA400D89F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C82DCEE2790DBA400D89F0F /* Assets.xcassets */; };
+		7C82DCF02790DBA400D89F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C82DCEE2790DBA400D89F0F /* Assets.xcassets */; };
+		7C82DCF52790DCA100D89F0F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCF42790DCA100D89F0F /* Location.swift */; };
+		7C82DCF62790DCA100D89F0F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCF42790DCA100D89F0F /* Location.swift */; };
+		7C82DCF92790DD7400D89F0F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCF82790DD7400D89F0F /* LocationsDataService.swift */; };
+		7C82DCFA2790DD7400D89F0F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCF82790DD7400D89F0F /* LocationsDataService.swift */; };
+		7C82DCFC2790DDF800D89F0F /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCFB2790DDF800D89F0F /* LocationsView.swift */; };
+		7C82DCFD2790DDF800D89F0F /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82DCFB2790DDF800D89F0F /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2E039B2790FF2B000C7EBA /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		7C2E039D2791C134000C7EBA /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		7C2E039F2791CFC6000C7EBA /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		7C2E03A12791DF9F000C7EBA /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		7C2E03A32791E4FF000C7EBA /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		7C820DDB279215A600C1EC5A /* SwiftfulMapApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftfulMapApp--iOS--Info.plist"; sourceTree = "<group>"; };
 		7C82DCD02790DA3F00D89F0F /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
 		7C82DCD12790DA3F00D89F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7C82DCD22790DA4300D89F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C82DCD72790DA4300D89F0F /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C82DCDD2790DA4300D89F0F /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C82DCDF2790DA4300D89F0F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7C82DCEE2790DBA400D89F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C82DCF42790DCA100D89F0F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7C82DCF82790DD7400D89F0F /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		7C82DCFB2790DDF800D89F0F /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 		7C82DCCA2790DA3F00D89F0F = {
 			isa = PBXGroup;
 			children = (
+				7C820DDB279215A600C1EC5A /* SwiftfulMapApp--iOS--Info.plist */,
 				7C82DCCF2790DA3F00D89F0F /* Shared */,
 				7C82DCDE2790DA4300D89F0F /* macOS */,
 				7C82DCD82790DA4300D89F0F /* Products */,
@@ -54,9 +75,13 @@
 		7C82DCCF2790DA3F00D89F0F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7C82DCF72790DD5400D89F0F /* DataServices */,
+				7C82DCF22790DC6E00D89F0F /* Views */,
+				7C82DCF32790DC7D00D89F0F /* ViewModels */,
+				7C82DCF12790DC6900D89F0F /* Models */,
 				7C82DCD02790DA3F00D89F0F /* SwiftfulMapAppApp.swift */,
 				7C82DCD12790DA3F00D89F0F /* ContentView.swift */,
-				7C82DCD22790DA4300D89F0F /* Assets.xcassets */,
+				7C82DCEE2790DBA400D89F0F /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +101,42 @@
 				7C82DCDF2790DA4300D89F0F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		7C82DCF12790DC6900D89F0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C82DCF42790DCA100D89F0F /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C82DCF22790DC6E00D89F0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C82DCFB2790DDF800D89F0F /* LocationsView.swift */,
+				7C2E039D2791C134000C7EBA /* LocationsListView.swift */,
+				7C2E039F2791CFC6000C7EBA /* LocationPreviewView.swift */,
+				7C2E03A12791DF9F000C7EBA /* LocationMapAnnotationView.swift */,
+				7C2E03A32791E4FF000C7EBA /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C82DCF32790DC7D00D89F0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7C2E039B2790FF2B000C7EBA /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7C82DCF72790DD5400D89F0F /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				7C82DCF82790DD7400D89F0F /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C82DCE42790DA4300D89F0F /* Assets.xcassets in Resources */,
+				7C82DCEF2790DBA400D89F0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C82DCE52790DA4300D89F0F /* Assets.xcassets in Resources */,
+				7C82DCF02790DBA400D89F0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C82DCF92790DD7400D89F0F /* LocationsDataService.swift in Sources */,
+				7C2E03A22791DF9F000C7EBA /* LocationMapAnnotationView.swift in Sources */,
+				7C2E039E2791C134000C7EBA /* LocationsListView.swift in Sources */,
+				7C2E03A02791CFC6000C7EBA /* LocationPreviewView.swift in Sources */,
+				7C2E039C2790FF2B000C7EBA /* LocationsViewModel.swift in Sources */,
 				7C82DCE22790DA4300D89F0F /* ContentView.swift in Sources */,
+				7C82DCFC2790DDF800D89F0F /* LocationsView.swift in Sources */,
+				7C82DCF52790DCA100D89F0F /* Location.swift in Sources */,
+				7C2E03A42791E4FF000C7EBA /* LocationDetailView.swift in Sources */,
 				7C82DCE02790DA4300D89F0F /* SwiftfulMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C82DCFA2790DD7400D89F0F /* LocationsDataService.swift in Sources */,
 				7C82DCE32790DA4300D89F0F /* ContentView.swift in Sources */,
+				7C82DCFD2790DDF800D89F0F /* LocationsView.swift in Sources */,
+				7C82DCF62790DCA100D89F0F /* Location.swift in Sources */,
 				7C82DCE12790DA4300D89F0F /* SwiftfulMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,11 +386,13 @@
 				DEVELOPMENT_TEAM = J3YC22CPKU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftfulMapApp--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Italy Locations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,11 +418,13 @@
 				DEVELOPMENT_TEAM = J3YC22CPKU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftfulMapApp--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Italy Locations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
